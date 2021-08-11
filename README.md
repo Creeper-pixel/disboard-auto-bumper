@@ -8,7 +8,7 @@ A selfbot disboard cheat engine to auto bump the server every thirty minutes you
 
 Install dependencies
 
-``sh
+`sh
 npm install
-``
+`
 
