@@ -19,5 +19,6 @@ npm install
 3: Open terminal and type 
 ```sh
 node .
-``` to start the bot.
+``` 
+to start the bot.
 
