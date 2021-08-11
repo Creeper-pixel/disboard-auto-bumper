@@ -10,7 +10,7 @@ Install dependencies
 
 ```sh
 npm install
-```
+``` 
 
 # Setup
 
@@ -21,4 +21,8 @@ npm install
 node .
 ``` 
 to start the bot.
+
+# Note
+
+This is a selfbot meaning it breaks the discord tos use it at your own risk I am not responsible for any of your actions
 
