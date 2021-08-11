@@ -14,9 +14,9 @@ npm install
 
 # Setup
 
-1: Add your token in config.json
-2: Invite the account to your server
-3: Open terminal and type 
+1. Add your token in config.json
+2. Invite the account to your server
+3. Open terminal and type 
 ```sh
 node .
 ``` 
