@@ -15,7 +15,7 @@ client.on("message", async msg => {
 	}
 })
 
-client.on("ready", () => {
+client.on("ready", async () => {
       setInterval(() => {
        			 let a = client.channels.cache.get("id")
 			 let b = client.channels.cache.get("id")
@@ -24,9 +24,13 @@ client.on("ready", () => {
 
 
        			 a.send("!d bump")
+	      		await new Promise(resolve => setTimeout(resolve, 5000));
 			 b.send("!d bump")
+	      		await new Promise(resolve => setTimeout(resolve, 5000));
 			 c.send("!d bump")
+	      		await new Promise(resolve => setTimeout(resolve, 5000));
 			 d.send("!d bump") 
+	      		await new Promise(resolve => setTimeout(resolve, 5000));
       }, 5000)
 })
 
